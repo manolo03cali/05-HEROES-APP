@@ -74,7 +74,7 @@ export default defineConfig([
 
 # Pasos en la creación del proyecto:
 
-1 npm create vite@latest para asegurarno de usar la ultima versión.
+1 npm create vite@latest para asegurarnos de usar la ultima versión.
 seleccionamos React
 luego Type script + sw
 
@@ -83,4 +83,45 @@ En caso de que salga el menaje Use rolldown-vite (Experimental)?: por ahora le d
 
 # Generación se elementos visuales con shacn y tailwind usando los pasos de instalación https://ui.shadcn.com/docs/installation/vite
 
-Instalamos nuestro primer componente de acuerdo a la documentación y adicional mente agregamos en la definición del componente Button en Button variants el cursor-pointer porque esta caracteristica no viene por defecto,
+Instalamos nuestro primer componente de acuerdo a la documentación y adicionalmente agregamos en la definición del componente Button en Button variants el cursor-pointer porque esta caracteristica no viene por defecto,
+
+# Para rutas manejamos react-router v7 Data
+
+npm i react-router
+
+#
+
+Quitamos el import Image from 'next/Image' y
+reemplazamos el Image de next por el tradicional img y quitamos el fill ya que no estamos usando next
+
+# heroes App
+
+##Levantar en desarrollo
+
+1. Clonar el repositorio
+2. Editat el archivo '.env' basado en el template
+3. Ejecutar npm install
+4. Ejecutar npm run dev
+5. Levantar el backend
+
+y paa el backend npm run start:dev
+
+tanstack query
+
+npm i @tanstack/react-query
+vale la pena instalar esLint
+npm i -D @tanstack/eslint-plugin-query
+tambien se debe instalar las devtools
+npm i @tanstack/react-query-devtools
+
+# Instalaciones adicionales para el manejo del formulario
+
+npx shadcn@latest add form
+#formulario pendiente por construir
+
+# Testing
+
+Usamos vitest
+npm install --save-dev @testing-library/react @testing-library/dom vitest jsdom
+usamos Axios adapter
+npm install axios-mock-adapter --save-dev
