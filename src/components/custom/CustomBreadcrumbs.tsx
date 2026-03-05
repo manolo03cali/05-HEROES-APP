@@ -3,10 +3,8 @@ import {
   BreadcrumbItem,
   BreadcrumbLink,
   BreadcrumbList,
-  BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-import { SlashIcon } from "lucide-react";
 import { Link } from "react-router";
 
 interface Breadcrum {

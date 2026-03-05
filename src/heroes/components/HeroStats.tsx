@@ -1,6 +1,6 @@
 import { use } from "react";
 import { Badge } from "@/components/ui/badge";
-import { User, Heart, Zap, Trophy, LucideClockFading } from "lucide-react";
+import { User, Heart, Zap, Trophy } from "lucide-react";
 import { HeroStatCard } from "./HeroStatCard";
 import { useHeroSummary } from "../hooks/useHeroSummary";
 import { favoriteHeroContext } from "../context/FavoriteHeroContext";
