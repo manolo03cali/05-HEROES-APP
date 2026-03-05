@@ -72,6 +72,10 @@ export default defineConfig([
 ]);
 ```
 
+# Prueba su funcionamiento en el siguiente link:
+
+https://app.netlify.com/projects/coruscating-froyo-123296/overview
+
 # Pasos en la creación del proyecto:
 
 1 npm create vite@latest para asegurarnos de usar la ultima versión.
