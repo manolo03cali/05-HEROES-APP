@@ -74,7 +74,7 @@ export default defineConfig([
 
 # Prueba su funcionamiento en el siguiente link:
 
-https://app.netlify.com/projects/coruscating-froyo-123296/overview
+https://coruscating-froyo-123296.netlify.app/
 
 # Pasos en la creación del proyecto:
 
