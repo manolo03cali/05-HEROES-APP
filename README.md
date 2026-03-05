@@ -76,6 +76,8 @@ export default defineConfig([
 
 https://coruscating-froyo-123296.netlify.app/
 
+https://manolo03cali.github.io/05-HEROES-APP/
+
 # Pasos en la creación del proyecto:
 
 1 npm create vite@latest para asegurarnos de usar la ultima versión.
